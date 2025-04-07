@@ -1,7 +1,7 @@
 {
-    "name": "reactjs-vite-tailwind-vercel",
+    "name": "vid-downloader",
     "version": "1.0.0",
-    "description": "ReactJS app with Vite, Tailwind",
+    "description": "App to download videos from multiple platforms for offline viewing",
     "type": "module",
     "scripts": {
         "dev": "vite",
@@ -11,8 +11,13 @@
     },
     "dependencies": {
         "@sentry/browser": "^8.41.0",
+        "@sentry/node": "^8.41.0",
+        "axios": "^1.6.7",
         "react": "^18.2.0",
-        "react-dom": "^18.2.0"
+        "react-dom": "^18.2.0",
+        "react-hot-toast": "^2.4.1",
+        "react-icons": "^5.0.1",
+        "react-router-dom": "^6.22.2"
     },
     "devDependencies": {
         "@vitejs/plugin-react": "^4.3.4",
